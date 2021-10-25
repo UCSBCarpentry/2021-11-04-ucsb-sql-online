@@ -28,17 +28,24 @@ site.flavor     : "python"
 </p>
 
 {% elsif site.flavor == "python" %}
-<h2>
-setup instructions for 2021-11-04 Go Here
-</h2>
+<ul>
+  <li><h3>SQL client software.</h3>
+    <ul>
+      <li>
+        <a href="https://sqlitebrowser.org/dl/" target="_blank">DB Browser for SQLite <img src="assets/img/db-browser-for-sqlite-icon.png"></a> Graphical User Interface (GUI) 
+      </li>
+    </ul>
+  </li>
+  <li><h3>Data sets</h3>
+  <ol>
+    <li><a href="https://github.com/lerocha/chinook-database/blob/master/ChinookDatabase/DataSources/Chinook_Sqlite.sqlite?raw=true" download="https://github.com/lerocha/chinook-database/blob/master/ChinookDatabase/DataSources/Chinook_Sqlite.sqlite?raw=true">Larger Music Database: chinook sample database: Chinook_Sqlite.sqlite</a></li>
+    <li><a href="data/SN7577.sqlite" download="data/SN7577.sqlite">Smaller Animals database: SN7577.sqlite</a></li>
+  </ol>
+  </li>
+  </ul>
 
-<ol>
-<li>Instructions to install the GUI SQL client software.</li>
-<li>Instructions to download Data set(s)</li>
+  {% else %}
 
-</ol>
-
-{% else %}
 {% include warning-flavor.html %}
 {% endif %}
 
