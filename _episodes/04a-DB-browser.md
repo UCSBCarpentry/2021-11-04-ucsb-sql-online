@@ -24,7 +24,7 @@ keypoints:
 
 In Windows the installation of DB Browser does not create a desktop icon. To explicitly launch the application after installing it, use the windows button (bottom left of screen) and type in ‘DB Browser’ in the search bar and selecting the application when it appears.
 
-![DB Browser run](../fig/DB_Browser_install_2.png)
+![DB Browser run](../fig/DB_Browser_win_install.png)
 
 For Mac users, launch the spotlight search bar (press "command" + the space bar on your keyboard) and enter 'DB Browser.' Select the application when it appears.
 
