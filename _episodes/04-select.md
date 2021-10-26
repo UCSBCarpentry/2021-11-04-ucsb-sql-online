@@ -15,7 +15,8 @@ keypoints:
 - "Use SELECT... FROM... to get values from a database table."
 - "SQL is case-insensitive (but data is case-sensitive)."
 ---
-A [relational database]({{ page.root }}{% link reference.md %}#relational-database)
+# A [relational database]({{ page.root }}{% link reference.md %}#relational-database)
+
 is a way to store and manipulate information.
 Databases are arranged as [tables]({{ page.root }}{% link reference.md %}#table).
 Each table has columns (also known as [fields]({{ page.root }}{% link reference.md %}#fields)) that describe the data,
