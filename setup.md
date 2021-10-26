@@ -27,4 +27,5 @@ After the installation and the setting of the paths, close the terminal and reop
 This enables paths and configurations to be loaded.
 
 # Files
-Please download the database we'll be using: [survey.db]({{ page.root }}/files/survey.db)
+Please download the database we'll be using: 
+- [survey.db]({{ page.root }}/files/survey.db)
