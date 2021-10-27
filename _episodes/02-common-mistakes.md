@@ -134,7 +134,7 @@ cells. As described above for formatting, create another field if you need to ad
 cells: ideally, all the measurements you place in one column should be in the same unit, but if for some reason they aren’t, create
 another field and specify the units the cell is in.
 
-![comments in cells](../fig/comments-in-cells.png){:height="35%" width="35%"}
+![comments in cells](../fig/comments-in-cells.png){:height="30%" width="30%"}
 
 ## <a name="info"></a> Entering more than one piece of information in a cell
 
