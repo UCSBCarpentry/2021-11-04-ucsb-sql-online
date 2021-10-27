@@ -216,7 +216,9 @@ The cardinal rules of using spreadsheet programs for data:
    cell. Sometimes it just seems like one thing, but think if that's
    the only way you'll want to be able to use or sort that data.
 4. Leave the raw data raw - don't change it!
-5. Export the cleaned data to a text-based format like CSV (comma-separated values) format. This
+5. Export the cleaned data to a text-based format like CSV (comma-separated values) format. 
+   you will always be able to import and export CSV's to databases and other
+   analytical software (MW Excel, gSheets, etc.) This
    ensures that anyone can use the data, and is required by
    most data repositories.
 
