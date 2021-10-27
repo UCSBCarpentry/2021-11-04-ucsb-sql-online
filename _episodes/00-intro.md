@@ -58,7 +58,7 @@ Additional white space, merged cells, colour and grids
 may aid readability but are not easily handled by other programs
 that take our spreadsheet as an input to further analysis.
 
-![excel booboo](../fig/excel-not-database.jpg | width = 300)
+![excel booboo](../fig/excel-not-database.jpg){:height="50%" width="50%"}
 
 Generating statistics and figures in spreadsheets should be done with caution.
 The graphical, drag and drop nature of spreadsheet programs means that it can be very difficult, if not impossible, to replicate your steps (much less retrace anyone else’s).
