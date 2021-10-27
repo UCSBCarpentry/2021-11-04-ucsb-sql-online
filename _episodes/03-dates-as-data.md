@@ -10,6 +10,7 @@ objectives:
 keypoints:
 - "Use extreme caution when working with date data."
 - "Splitting dates into their component values can make them easier to handle."
+- "Don't use Excel."
 ---
 
 ## Date formats in spreadsheets
