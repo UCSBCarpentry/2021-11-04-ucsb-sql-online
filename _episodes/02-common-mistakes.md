@@ -109,7 +109,7 @@ Blanks (most applications) and NA (for R) are good choices. White et al, 2013, e
 
 **Example**: highlighting cells, rows or columns that should be excluded from an analysis, leaving blank rows to indicate separations in data.
 
-![formatting](../fig/bad-formatting.png)
+![formatting](../fig/bad-formatting.png){:height="65%" width="65%"}
 
 **Solution**: create a new field to encode which data should be excluded.
 
