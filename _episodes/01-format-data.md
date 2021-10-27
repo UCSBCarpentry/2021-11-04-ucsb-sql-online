@@ -24,6 +24,8 @@ Databases are arranged as [tables]({{ page.root }}{% link reference.md %}#table)
 Each table has columns (also known as [fields]({{ page.root }}{% link reference.md %}#fields)) that describe the data,
 and rows (also known as [records]({{ page.root }}{% link reference.md %}#record)) which contain the data.
 
+You can think of database tables as individual spreadsheets. But spreadsheets with very well formated, 'clean' data.
+
 When we are using a spreadsheet,
 we put formulas into cells to calculate new values based on old ones.
 When we are using a database,
@@ -52,8 +54,9 @@ but that handful accounts for most of what scientists do.
 > so it *is* possible to move information from one to another.
 {: .callout}
 
-> ## Getting Into and Out Of SQLite
+> ## SQLite
 >
+> You could do this entire workshop in SQLite. But we are going to use a graphical database tool.
 > In order to use the SQLite commands *interactively*, we need to
 > enter into the SQLite console.  So, open up a terminal, and run
 >
@@ -146,7 +149,8 @@ data, but instead have a special `-null-` entry:
 we'll return to these missing values
 [later]({{ page.root }}{% link _episodes/08-null.md %}).
 
-
+## Artists, Albums, Songs
+Let's take look at another database: this time in DB Browser for SQLite.
 
 
 
