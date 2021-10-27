@@ -291,7 +291,7 @@ page](http://www.datacarpentry.org/socialsci-workshop/data).
 >    one in Mozambique and the other in Tanzania. They both structured their
 >    data tables in a different way. Now, you're the person in charge of this
 >    project and you want to be able to start analyzing the data.
-> 4. With the person next to you, identify what is wrong with this spreadsheet.
+> 4. In your breakout room, identify what is wrong with this spreadsheet.
 >    Discuss the steps you would need to take to clean up the two tabs, and to
 >    put them all together in one spreadsheet.
 >
