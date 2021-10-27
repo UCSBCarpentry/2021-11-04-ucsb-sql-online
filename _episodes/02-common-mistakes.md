@@ -82,7 +82,7 @@ usually a zero, say the number of cows that an informant has, in a
 region where most farmers have goats and no cows. Why bother
 writing in the number zero in that column, when it's mostly zeros?
 
-![filling in zeros](../fig/zeros-example.png){:height="100%" width="100%"}
+![filling in zeros](../fig/zeros-example.png){:height="80%" width="80%"}
 
 However, there's a difference between a zero and a blank cell in a spreadsheet. To the computer, a zero is actually data. You measured
 or counted it. A blank cell means that it wasn't measured and the computer will interpret it as an unknown value (otherwise known as a
