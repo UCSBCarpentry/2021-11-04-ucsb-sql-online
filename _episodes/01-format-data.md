@@ -52,12 +52,14 @@ but that handful accounts for most of what scientists do.
 > However, every database manager
 > can import and export data in a variety of formats like .csv, SQL,
 > so it *is* possible to move information from one to another.
+> 
+> For this workshop, we will be using the DB Browser for SQLite.
 {: .callout}
 
 > ## SQLite
 >
 > You could do this entire workshop in SQLite. But we are going to use a graphical database tool.
-> In order to use the SQLite commands *interactively*, we need to
+> In order to use the SQLite commands *interactively*, you would
 > enter into the SQLite console.  So, open up a terminal, and run
 >
 > ~~~
@@ -75,7 +77,7 @@ but that handful accounts for most of what scientists do.
 > command, type `.help`.
 {: .callout}
 
-Before we get into using SQLite to select the data, let's take a look at the tables of the database we will use in our examples:
+Before we get into using SQLite to select the data, let's take a look at the tables of the database we will use in our examples. Let's 
 
 <div class="row">
   <div class="col-md-6" markdown="1">
@@ -149,8 +151,6 @@ data, but instead have a special `-null-` entry:
 we'll return to these missing values
 [later]({{ page.root }}{% link _episodes/08-null.md %}).
 
-## Artists, Albums, Songs
-Let's take look at another database: this time in DB Browser for SQLite.
 
 
 
