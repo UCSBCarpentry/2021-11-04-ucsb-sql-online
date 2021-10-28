@@ -107,7 +107,6 @@ In this lesson we're going to talk about:
 1. [Formatting data tables in spreadsheets](../01-format-data/)
 2. [Formatting problems](../02-common-mistakes/)
 3. [Dates as data](../03-dates-as-data/)
-4. [Quality control](../04-quality-assurance/)
-5. [Exporting data](../05-exporting-data/)
+
 
 {% include links.md %}
