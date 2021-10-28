@@ -1,5 +1,5 @@
 ---
-title: "Formatting Data Tables in Spreadsheets"
+title: "Formatting Spreadsheets as Data Tables"
 teaching: 15
 exercises: 15
 questions:
