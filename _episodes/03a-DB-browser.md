@@ -117,6 +117,16 @@ If you only have a single statement you don't need it, but it might be considere
 The pane below the editor is the Results pane. The results of running your query will appear here in a simple tabular format.
 The bottom pane is for messages about the execution, either an error message or an indication of how many rows were returned by the query.
 
+> ## Explore another Table
+> 
+> How many entries are in the "crops_rice_old" table?
+> What information do you think "Plot_Id" represents?
+> > ## 139 observations
+> > 
+> > Select * from crops_rice_old;
+> {: .solution}
+{ .challenge}
+
 
 ## Creating a database
 
