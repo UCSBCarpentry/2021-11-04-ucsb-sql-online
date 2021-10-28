@@ -2,7 +2,7 @@
 
 # UCSB Fall 2021 SQL data Carpentry
 
-This repository is The Carpentries' ([Software Carpentry][swc-site], [Data Carpentry][dc-site], and
+This repository was made from The Carpentries' ([Software Carpentry][swc-site], [Data Carpentry][dc-site], and
 [Library Carpentry][lc-site]'s) template for creating websites for workshops.
 
 
@@ -33,14 +33,8 @@ for your learners to practice in.
 There is a [YouTube video](https://www.youtube.com/watch?v=_Ag1JiZzyUQ) that demonstrates how to
 create a workshop website.
 
-## Creating a Repository
 
 
-
-    ![screenshot of top menu bar for GitHub's file interface with the edit icon highlighted in the top right](fig/edit-index-file-menu-bar.png?raw=true)
-
-    Editing hints are embedded in `index.md`,
-    and full instructions are in [the customization instructions][customization].
 
 4.  Remove the notice about using the workshop template in the `index.md` file. You can safely
     delete everything between the `{% comment %}` and `{% endcomment %}` (included) as indicated
@@ -61,67 +55,7 @@ create a workshop website.
     {% endcomment %} <--------- until this line
     ```
 
-4.  Edit `_config.yml` to customize certain site-wide variables, such as: `carpentry` (to tell your
-    participants the lesson program for your workshop), `curriculum` and `flavor` for the
-    curriculum  taught in your workshop, and `title` (overall title for all pages).
 
-    Editing hints are embedded in `_config.yml`,
-    and full instructions are in [the customization instructions][customization].
-
-5. Edit the `schedule.html` file to edit the schedule for your upcoming workshop. This file is
-   located in the `_includes` directory, make sure to choose the one from the appropriate `dc` (Data
-   Carpentry workshop), `lc` (Library Carpentry), or `swc` (Software Carpentry) subdirectory.
-
-### Working locally
-
-> Note: you don't have to do this, if you have already updated your site using the web interface.
-
-
-If you are already familiar with Git, you can clone the repository to your desktop, edit `index.md`,
-`_config.yml`, and `schedule.html` following the instruction above there, and push your changes back to the repository.
-
-```shell
-git clone https://github.com/your_username/YYYY-MM-DD-site
-```
-
-In order to view your changes once you are done editing, if you have bundler installed (see the
-[installation instructions below](#installing-software)), you can preview your site locally with:
-
-```shell
-make serve
-```
-and go to <http://0.0.0.0:4000> to preview your site.
-
-Before pushing your changes to your repository, we recommend that you also check for any potential
-issues with your site by running:
-
-```shell
-make workshop-check
-```
-
-Once you are satisfied with the edits to your site, commit and push the changes to your repository.
-A few minutes later, you can go to the GitHub Pages URL for your workshop site and preview it. In the example above, this is `https://gvwilson.github.io/2016-12-01-oomza`. [The finished
-page should look something like this](fig/completed-page.png?raw=true).
-
-
-## Optional but Recommended Steps
-
-
-### Update your repository description and link your website
-
-At the top of your repository on GitHub you'll see
-
-~~~
-No description, website, or topics provided. — Edit
-~~~
-
-Click 'Edit' and add:
-
-1.  A very brief description of your workshop in the "Description" box (e.g., "Oomza University workshop, Dec. 2016")
-
-2.  The URL for your workshop in the "Website" box (e.g., `https://gvwilson.github.io/2016-12-01-oomza`)
-
-This will help people find your website if they come to your repository's home page.
 
 ### Update the content of the README file
 
