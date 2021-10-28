@@ -58,7 +58,9 @@ SELECT quant FROM Survey;
 This result makes it difficult to see all of the different types of
 `quant` in the Survey table.  We can eliminate the redundant output to
 make the result more readable by adding the `DISTINCT` keyword to our
-query:
+query.
+
+You can also look at this as finding all the unique values in a column:
 
 ~~~
 SELECT DISTINCT quant FROM Survey;
@@ -76,7 +78,9 @@ have which `quant` measurement,
 we can use the `DISTINCT` keyword on multiple columns.
 If we select more than one column,
 distinct *sets* of values are returned
-(in this case *pairs*, because we are selecting two columns):
+(in this case *pairs*, because we are selecting two columns).
+
+In other words: find all the combinations that exist in your data
 
 ~~~
 SELECT DISTINCT taken, quant FROM Survey;
