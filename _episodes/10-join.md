@@ -325,6 +325,20 @@ SELECT rowid, * FROM Person;
  > {: .solution}
 {: .challenge}
 
+
+
+> ## Assemble Albums
+>
+> Now that we know about joins, we know what AlbumID, GenreID, and MediaTpeId
+> can do in our Track table. Using what we just learned, write a SQL statement
+> that outputs all of the Latin music in the store.
+> 
+ > > ## Solution
+ > > Select * from Track where GenreID = 7
+ > > that doesn't really unleash the power. What would be better?
+ > {: .solution}
+{: .challenge}
+
 A good visual explanation of joins can be found [here][joinref]
 
 [outer]: https://en.wikipedia.org/wiki/Join_%28SQL%29#Outer_join
