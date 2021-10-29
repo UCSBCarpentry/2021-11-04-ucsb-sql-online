@@ -197,7 +197,7 @@ that combine multiple values, such as `min`, `max` or `avg`, *ignore*
 `null` values. In the majority of cases, this is a desirable output:
 for example, unknown values are thus not affecting our data when we
 are averaging it. Aggregation functions will be addressed in more
-detail in [the next section]({{ page.root }}{% link _episodes/09-agg.md %}).
+detail in [the next section]({{ page.root }}{% link _episodes/10-agg.md %}).
 
 > ## Sorting by Known Date
 >
