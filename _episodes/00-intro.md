@@ -99,10 +99,11 @@ spreadsheet programs to check your data quality along the way and produce
 preliminary summary statistics.
 
 In this lesson, we will assume that you are most likely using Excel as
-your primary spreadsheet program - there are other programs with similar functionality but Excel seems
-to be the most commonly used.
+your primary spreadsheet program - there are other programs with similar functionality but Excel is still
+the most commonly used.
 
-In this lesson we're going to talk about:
+Before we get hands-on with our SQL database, let's first talk about 
+what relational databases are, and preparing our data to save us pain later. 
 
 1. [Formatting data tables in spreadsheets](../01-format-data/)
 2. [Formatting problems](../02-common-mistakes/)
