@@ -177,7 +177,7 @@ SELECT * FROM Person;
 >
 > > ## Solution
 > >
-> > ~~~ .schema ~~~ {: .sql} ~~~ CREATE TABLE Person (id text, personal text, family 
+> > CREATE TABLE Person (id text, personal text, family 
 > > text); CREATE TABLE Site (name text, lat real, long real); CREATE TABLE Survey 
 > > (taken integer, person text, quant text, reading real); CREATE TABLE Visited (id 
 > > integer, site text, dated text); ~~~ {: .output} From the output, we see that the 
