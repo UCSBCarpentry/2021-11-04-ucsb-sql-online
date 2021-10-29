@@ -17,21 +17,17 @@ keypoints:
 ---
 
 
-> ## Open the ocean survey in DB Browser for SQLits
+> ## Open the ocean survey in DB Browser for SQLite
 >
 > > ![DB Browser for SQLite](../fig/survey_schema.PNG)
 > > 
 > >
-> > If you get the same output, you can run
+> > You should see a DB Schema tab in the interface
 > >
-> > Browse your tables. What kinds of information do you think this is?
+> > Play with those arrows. What kinds of information do you think this is?
 > > How might the different tables relate to each other?
 > >
-> > If you had the above tables, you might be curious what information was stored in each table.
-> > To get more information on the tables, type `.schema` to see the SQL statements used to create the tables in the database.  The statements will have a list of the columns and the data types each column stores.
-> > ~~~
-> > .schema
-> > ~~~
+> > What information was stored in each table.
 > > {: .sql}
 > > ~~~
 > > CREATE TABLE Person (id text, personal text, family text);
@@ -41,28 +37,15 @@ keypoints:
 > > ~~~
 > > {: .output}
 > >
-> > The output is formatted as <**columnName** *dataType*>.  Thus we can see from the first line that the table **Person** has three columns:
-> > * **id** with type _text_
-> > * **personal** with type _text_
+> > We 
+> > can see that the table **Person** has three 
+> > columns: * **id** with type _text_ * **personal** with type _text_ 
 > > * **family** with type _text_
 > >
-> > Note: The available data types vary based on the database manager - you can search online for what data types are supported.
+> > Note: The available data types vary based on the database manager - 
+> > you can search online for what data types are supported.
 > > 
-> > You can change some SQLite settings to make the output easier to read.
-> > First,
-> > set the output mode to display left-aligned columns.
-> > Then turn on the display of column headers.
-> > 
-> > ~~~
-> > .mode column
-> > .header on
-> > ~~~
-> > {: .sql}
-> >
-> > To exit SQLite and return to the shell command line,
-> > you can use either `.quit` or `.exit`.
-> > {: .output}
-> {: .output}
+> > You can change some settings to make the output easier to read.
 {: .callout}
 
 For now,
