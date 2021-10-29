@@ -149,7 +149,7 @@ Notice that three entries --- one in the `Visited` table,
 and two in the `Survey` table --- don't contain any actual
 data, but instead have a special `-null-` entry:
 we'll return to these missing values
-[later]({{ page.root }}{% link _episodes/08-null.md %}).
+[later]({{ page.root }}{% link _episodes/09-null.md %}).
 
 
 
