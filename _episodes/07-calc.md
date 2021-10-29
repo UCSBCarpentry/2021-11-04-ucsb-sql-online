@@ -110,6 +110,9 @@ SELECT personal || ' ' || family FROM Person;
 > > |----------|-------------|
 > > |752       |0.416        |
 > > |837       |0.225        |
+> > 
+> > Note that we aren't actually changing the values in the database.
+> > That would be an 'update' query.
 > {: .solution}
 {: .challenge}
 
