@@ -17,53 +17,15 @@ keypoints:
 ---
 
 
-> ## Checking If Data is Available Using Sqlite3
+> ## Open the ocean survey in DB Browser for SQLits
 >
+> > ** image here **
 > > 
-> > 
-> > On the shell command line,
-> > change the working directory to the one where you saved `survey.db`.
-> > If you saved it at your Desktop you should use
->
-> > ~~~
-> > $ cd Desktop
-> > $ ls | grep survey.db
-> > ~~~
-> > {: .bash}
-> > ~~~
-> > survey.db
-> > ~~~
-> > {: .output}
 > >
 > > If you get the same output, you can run
 > >
-> > ~~~
-> > $ sqlite3 survey.db
-> > ~~~
-> > {: .bash}
-> > ~~~
-> > SQLite version 3.8.8 2015-01-16 12:08:06
-> > Enter ".help" for usage hints.
-> > sqlite>
-> > ~~~
-> > {: .output}
-> >
-> > that instructs SQLite to load the database in the `survey.db` file.
-> >
-> > For a list of useful system commands, enter `.help`.
-> >
-> > All SQLite-specific commands are prefixed with a `.` to distinguish them from SQL commands.
-> >
-> > Type `.tables` to list the tables in the database.
-> >
-> > ~~~
-> > .tables
-> > ~~~
-> > {: .sql}
-> > ~~~
-> > Person   Site     Survey   Visited
-> > ~~~
-> > {: .output}
+> > Browse your tables. What kinds of information do you think this is?
+> > How might the different tables relate to each other?
 > >
 > > If you had the above tables, you might be curious what information was stored in each table.
 > > To get more information on the tables, type `.schema` to see the SQL statements used to create the tables in the database.  The statements will have a list of the columns and the data types each column stores.
