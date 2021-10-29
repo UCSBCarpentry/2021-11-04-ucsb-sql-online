@@ -17,86 +17,89 @@ keypoints:
 ---
 
 
-> ## Checking If Data is Available
+> ## Checking If Data is Available Using Sqlite3
 >
-> On the shell command line,
-> change the working directory to the one where you saved `survey.db`.
-> If you saved it at your Desktop you should use
+> > ## Using Command Line
+> > 
+> > On the shell command line,
+> > change the working directory to the one where you saved `survey.db`.
+> > If you saved it at your Desktop you should use
 >
-> ~~~
-> $ cd Desktop
-> $ ls | grep survey.db
-> ~~~
-> {: .bash}
-> ~~~
-> survey.db
-> ~~~
+> > ~~~
+> > $ cd Desktop
+> > $ ls | grep survey.db
+> > ~~~
+> > {: .bash}
+> > ~~~
+> > survey.db
+> > ~~~
+> > {: .output}
+> >
+> > If you get the same output, you can run
+> >
+> > ~~~
+> > $ sqlite3 survey.db
+> > ~~~
+> > {: .bash}
+> > ~~~
+> > SQLite version 3.8.8 2015-01-16 12:08:06
+> > Enter ".help" for usage hints.
+> > sqlite>
+> > ~~~
+> > {: .output}
+> >
+> > that instructs SQLite to load the database in the `survey.db` file.
+> >
+> > For a list of useful system commands, enter `.help`.
+> >
+> > All SQLite-specific commands are prefixed with a `.` to distinguish them from SQL commands.
+> >
+> > Type `.tables` to list the tables in the database.
+> >
+> > ~~~
+> > .tables
+> > ~~~
+> > {: .sql}
+> > ~~~
+> > Person   Site     Survey   Visited
+> > ~~~
+> > {: .output}
+> >
+> > If you had the above tables, you might be curious what information was stored in each table.
+> > To get more information on the tables, type `.schema` to see the SQL statements used to create the tables in the database.  The statements will have a list of the columns and the data types each column stores.
+> > ~~~
+> > .schema
+> > ~~~
+> > {: .sql}
+> > ~~~
+> > CREATE TABLE Person (id text, personal text, family text);
+> > CREATE TABLE Site (name text, lat real, long real);
+> > CREATE TABLE Survey (taken integer, person text, quant text, reading real);
+> > CREATE TABLE Visited (id integer, site text, dated text);
+> > ~~~
+> > {: .output}
+> >
+> > The output is formatted as <**columnName** *dataType*>.  Thus we can see from the first line that the table **Person** has three columns:
+> > * **id** with type _text_
+> > * **personal** with type _text_
+> > * **family** with type _text_
+> >
+> > Note: The available data types vary based on the database manager - you can search online for what data types are supported.
+> > 
+> > You can change some SQLite settings to make the output easier to read.
+> > First,
+> > set the output mode to display left-aligned columns.
+> > Then turn on the display of column headers.
+> > 
+> > ~~~
+> > .mode column
+> > .header on
+> > ~~~
+> > {: .sql}
+> >
+> > To exit SQLite and return to the shell command line,
+> > you can use either `.quit` or `.exit`.
 > {: .output}
->
-> If you get the same output, you can run
->
-> ~~~
-> $ sqlite3 survey.db
-> ~~~
-> {: .bash}
-> ~~~
-> SQLite version 3.8.8 2015-01-16 12:08:06
-> Enter ".help" for usage hints.
-> sqlite>
-> ~~~
-> {: .output}
->
-> that instructs SQLite to load the database in the `survey.db` file.
->
-> For a list of useful system commands, enter `.help`.
->
-> All SQLite-specific commands are prefixed with a `.` to distinguish them from SQL commands.
->
-> Type `.tables` to list the tables in the database.
->
-> ~~~
-> .tables
-> ~~~
-> {: .sql}
-> ~~~
-> Person   Site     Survey   Visited
-> ~~~
-> {: .output}
->
-> If you had the above tables, you might be curious what information was stored in each table.
-> To get more information on the tables, type `.schema` to see the SQL statements used to create the tables in the database.  The statements will have a list of the columns and the data types each column stores.
-> ~~~
-> .schema
-> ~~~
-> {: .sql}
-> ~~~
-> CREATE TABLE Person (id text, personal text, family text);
-> CREATE TABLE Site (name text, lat real, long real);
-> CREATE TABLE Survey (taken integer, person text, quant text, reading real);
-> CREATE TABLE Visited (id integer, site text, dated text);
-> ~~~
-> {: .output}
->
-> The output is formatted as <**columnName** *dataType*>.  Thus we can see from the first line that the table **Person** has three columns:
-> * **id** with type _text_
-> * **personal** with type _text_
-> * **family** with type _text_
->
-> Note: The available data types vary based on the database manager - you can search online for what data types are supported.
->
-> You can change some SQLite settings to make the output easier to read.
-> First,
-> set the output mode to display left-aligned columns.
-> Then turn on the display of column headers.
->
-> ~~~
-> .mode column
-> .header on
-> ~~~
-> {: .sql}
->
-> To exit SQLite and return to the shell command line,
-> you can use either `.quit` or `.exit`.
 {: .callout}
 
 For now,
