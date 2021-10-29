@@ -77,7 +77,7 @@ but that handful accounts for most of what scientists do.
 > command, type `.help`.
 {: .callout}
 
-Before we get into using SQLite to select the data, let's take a look at the tables of the database we will use in our examples. Let's 
+Before we get into using SQLite to select the data, let's take a look at the tables of the database we will use in our examples.
 
 <div class="row">
   <div class="col-md-6" markdown="1">
@@ -156,8 +156,11 @@ we'll return to these missing values
 
 ## Data formatting problems
 
-The most common mistake made is treating spreadsheet programs like lab notebooks, that is,
-relying on context, notes in the margin,
+A super common issue you will have when moving 
+from spreadsheets to databases is that everyone treats spreadsheet programs like a paper notebook.
+
+There's nothing wrong with this. We all do it. 
+We rely on context, notes in the margin,
 spatial layout of data and fields to convey information. As humans, we
 can (usually) interpret these things, but computers don't view information the same way, and
 unless we explain to the computer what every single thing means (and
@@ -169,17 +172,13 @@ effective and faster ways, but to use that power, we have to set up
 our data for the computer to be able to understand it (and computers are very
 literal).
 
-This is why it’s extremely important to set up well-formatted
-tables from the outset - before you even start entering data from
-your very first preliminary experiment. Data organization is the
-foundation of your research project. It can make it easier or harder
-to work with your data throughout your analysis, so it's worth
-thinking about when you're doing your data entry or setting up your
-experiment. You can set things up in different ways in spreadsheets,
-but some of these choices can limit your ability to work with the data in other programs or
-have the you-of-6-months-from-now or your collaborator work with the
-data.
-
+Let's compare two spreadsheets:
+> A ['clean' version of a survey of small farms](https://ndownloader.figshare.com/files/11492171),
+> and a version that the anthropologist may have brought us in the Library. 
+> [messy data](https://ndownloader.figshare.com/files/11502824).
+> 
+> Open these files in Excel or Google Sheets.
+> 
 > ## Tip
 > The best layouts/formats (as well as software and
 > interfaces) for data entry and data analysis might be
@@ -216,13 +215,10 @@ The cardinal rules of using spreadsheet programs for data:
    cell. Sometimes it just seems like one thing, but think if that's
    the only way you'll want to be able to use or sort that data.
 4. Leave the raw data raw - don't change it!
-5. Export the cleaned data to a text-based format like CSV (comma-separated values) format. 
-   you will always be able to import and export CSV's to databases and other
-   analytical software (MW Excel, gSheets, etc.) This
-   ensures that anyone can use the data, and is required by
-   most data repositories.
+5. Export the cleaned data to a new file using a universal 
+   file format like CSV (comma-separated values). 
 
-For instance, we're going to be working with data from a study of
+For instance, this farm data from a study of
 agricultural practices among farmers in two countries in eastern
 sub-Saharan Africa (Mozambique and Tanzania). Researchers conducted
 interviews with farmers in these countries to collect data on
@@ -274,12 +270,6 @@ out the [Social Sciences workshop data
 page](http://www.datacarpentry.org/socialsci-workshop/data).
 {: .callout}
 
-> ## LibreOffice Users
-> The default for LibreOffice is to treat tabs, commas, and semicolons as delimiters.
-> This behavior can cause problems with both the data for this lesson and other data
-> you might want to use. This can be fixed when opening LibreOffice by deselecting
-> the "semicolons" and "tabs" checkboxes.
-{: .callout}
 
 > ## Exercise
 >
