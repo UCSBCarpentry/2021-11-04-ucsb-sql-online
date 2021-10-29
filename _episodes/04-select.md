@@ -171,6 +171,7 @@ SELECT * FROM Person;
 |roe     |Valentina|Roerich |
 |danforth|Frank    |Danforth|
 
+<!--
 > ## Understanding CREATE statements
 >
 > Use the `.schema` to identify column that contains integers.
@@ -185,6 +186,7 @@ SELECT * FROM Person;
 > > column are composed of integers.
 > {: .solution}
 {: .challenge}
+-->
 
 > ## Selecting Site Names
 >
