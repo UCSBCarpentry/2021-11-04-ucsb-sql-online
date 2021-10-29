@@ -50,9 +50,13 @@ The overall layout of DB Browser is quite flexible. The panes on the right-hand 
 
 We will make a couple of initial changes to the layout of the screen. These will be retained across sessions.
 
-1. From the View menu item un-select the 'Edit Database Cell' icon to the left of the text. This will make the pane close and the bottom pane will be expanded automatically to fill the space.
-2. a) On Windows, From the View menu item select 'preferences' and select the Data Browser tab.
-2. b) On Mac, From the "DB Browser for SQLite" menu item select 'preferences' and select the Data Browser tab.
+1. From the View menu item un-select the 'Edit Database Cell' icon to the left of the 
+text. This will make the pane close and the bottom pane will be expanded 
+automatically to fill the space. 
+2. a) On Windows, From the ViewEdit menu item select 
+'preferences' and select the Data Browser tab. 
+2. b) On Mac, From the "DB Browser for 
+SQLite" menu item select 'preferences' and select the Data Browser tab.
 
 ![Data Browser Preferences](../fig/DB_Browser_run_2.png)
 
@@ -62,7 +66,10 @@ Towards the bottom there is a section dealing with Field colors. You will see th
 
 ## Opening a database
 
-For this lesson we will be making extensive use of the SQL_SAFI database. If you do not already have a copy of this database you can download it from [here](../data/SQL_SAFI.sqlite).
+One of the datasets we will be using this lesson is the SQL_SAFI database, a sample of
+a farm survey. If you do 
+not already have a copy of this database you can download it from 
+[here](../data/SQL_SAFI.sqlite).
 
 To open the database in DB Browser do the following;
 1. Click on the 'open database' button in the toolbar.
@@ -121,9 +128,10 @@ The bottom pane is for messages about the execution, either an error message or 
 > 
 > How many entries are in the "crops_rice_old" table?
 > What information do you think "Plot_Id" represents?
-> > ## 139 observations
+> > ## Solution
+> > 169 observations
 > > 
-> > Select * from crops_rice_old;
+> > { .sql}Select * from crops_rice_old;
 > {: .solution}
 { .challenge}
 
