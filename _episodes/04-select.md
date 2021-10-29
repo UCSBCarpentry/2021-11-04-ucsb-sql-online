@@ -99,6 +99,7 @@ keypoints:
 > >
 > > To exit SQLite and return to the shell command line,
 > > you can use either `.quit` or `.exit`.
+> > {: .output}
 > {: .output}
 {: .callout}
 
