@@ -19,7 +19,7 @@ keypoints:
 
 > ## Checking If Data is Available Using Sqlite3
 >
-> > ## Using Command Line
+> > 
 > > 
 > > On the shell command line,
 > > change the working directory to the one where you saved `survey.db`.
