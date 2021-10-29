@@ -27,7 +27,7 @@ keypoints:
 > > Play with those arrows. What kinds of information do you think this is?
 > > How might the different tables relate to each other?
 > >
-> > What information was stored in each table.
+> > What types of information are stored in each table?
 > > {: .sql}
 > > ~~~
 > > CREATE TABLE Person (id text, personal text, family text);
@@ -52,6 +52,9 @@ For now,
 let's write an SQL query that displays scientists' names.
 We do this using the SQL command `SELECT`,
 giving it the names of the columns we want and the table we want them from.
+We are going to by typing these SQL statements into the 'Execute SQL' pane
+of our DB Browser.
+
 Our query and its output look like this:
 
 ~~~
@@ -174,18 +177,12 @@ SELECT * FROM Person;
 >
 > > ## Solution
 > >
-> > ~~~
-> > .schema
-> > ~~~
-> > {: .sql}
-> > ~~~
-> > CREATE TABLE Person (id text, personal text, family text);
-> > CREATE TABLE Site (name text, lat real, long real);
-> > CREATE TABLE Survey (taken integer, person text, quant text, reading real);
-> > CREATE TABLE Visited (id integer, site text, dated text);
-> > ~~~
-> > {: .output}
-> > From the output, we see that the **taken** column in the **Survey** table (3rd line) is composed of integers.
+> > ~~~ .schema ~~~ {: .sql} ~~~ CREATE TABLE Person (id text, personal text, family 
+> > text); CREATE TABLE Site (name text, lat real, long real); CREATE TABLE Survey 
+> > (taken integer, person text, quant text, reading real); CREATE TABLE Visited (id 
+> > integer, site text, dated text); ~~~ {: .output} From the output, we see that the 
+> > **taken** column in the **Survey** table (3rd line) and **Visited** table **id** 
+> > column are composed of integers.
 > {: .solution}
 {: .challenge}
 
