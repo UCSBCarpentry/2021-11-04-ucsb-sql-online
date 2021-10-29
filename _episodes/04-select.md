@@ -19,7 +19,7 @@ keypoints:
 
 > ## Open the ocean survey in DB Browser for SQLits
 >
-> > ** image here **
+> > ![DB Browser for SQLite](../fig/survey_schema.PNG)
 > > 
 > >
 > > If you get the same output, you can run
