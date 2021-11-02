@@ -131,7 +131,10 @@ The bottom pane is for messages about the execution, either an error message or 
 > > ## Solution
 > > 169 observations
 > > 
-> > { .sql}Select * from crops_rice_old;
+> > ~~~
+> >Select * from crops_rice_old;
+> > ~~~
+> {: .sql}
 > {: .solution}
 { .challenge}
 
