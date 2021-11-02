@@ -125,10 +125,11 @@ The pane below the editor is the Results pane. The results of running your query
 The bottom pane is for messages about the execution, either an error message or an indication of how many rows were returned by the query.
 
 > ## Explore another Table
-> 
-> How many entries are in the "crops_rice_old" table?
-> What information do you think "Plot_Id" represents?
->
+> <ul>
+> 1. What would be the SQL query to select all the entries from "crops_rice_old"?
+> 2. How many entries are in the "crops_rice_old" table?
+> 3. What information do you think "Plot_Id" represents?
+> </ul>
 > > ## Solution
 > > 169 observations
 > > 
