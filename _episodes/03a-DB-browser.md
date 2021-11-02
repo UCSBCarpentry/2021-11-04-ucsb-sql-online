@@ -128,15 +128,17 @@ The bottom pane is for messages about the execution, either an error message or 
 > 
 > How many entries are in the "crops_rice_old" table?
 > What information do you think "Plot_Id" represents?
+>
 > > ## Solution
 > > 169 observations
 > > 
 > > ~~~
-> >Select * from crops_rice_old;
+> > Select * from crops_rice_old;
 > > ~~~
-> {: .sql}
+> > {: .sql}
+> >
 > {: .solution}
-{ .challenge}
+{: .challenge}
 
 
 ## Creating a database
