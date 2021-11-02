@@ -138,7 +138,6 @@ The bottom pane is for messages about the execution, either an error message or 
 > > {: .sql}
 > >
 > {: .solution}
-{: .challenge}
 
 
 ## Creating a database
