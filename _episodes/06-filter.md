@@ -286,7 +286,7 @@ not to the entire rows as they are being processed.
 
 > ## Matching Patterns
 >
-> Which of these expressions are true?
+> Why are these expressions true?
 >
 > 1. `'a' LIKE 'a'`
 > 2. `'a' LIKE '%a'`
